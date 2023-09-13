@@ -3,6 +3,8 @@ var organisationConfig = {
     nl_organisationName: "VNG-Realisatie",
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
     nl_organisationPublishURL: "https://melsk-r.github.io/",
+    // Het hier gedefinieerde logo wordt helemaal bovenaan het Respec document aan de rechterzijde geplaatst.
+    // Hier is er voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
     logos: [{
         src: "https://melsk-r.github.io/Respec/logo-VNG-Realisatie.jpg",
         alt: "VNG-Realisatie",
@@ -11,20 +13,25 @@ var organisationConfig = {
         url: "https://www.vng.nl",
     }],
 
+   // Geen idee wat dit precies doet.
     postProcess: [window.respecMermaid.createFigures],
 
-   // Onderstaande variabelen kunnen door ze nogmaals in de config.js te plaatsen overrules worden. 
-   // Bijv. om een vorige versie niet te tonen, aan begin van de life cycle van een document is deze er nl. nog helemaal niet.
+   // De hier gedefinieerde variabelen kunnen door ze nogmaals in de config.js te plaatsen overruled worden.  
+   // Bijv. om de url van de vorige versie niet te tonen, aan begin van de life cycle van een document is deze er nl. nog helemaal niet.
 	
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
    korteNaam: "Respec-ORI",
+
+   // Onderzoeken hoe je een oude versie kunt publiceren.
+   // ---------------------------------------------------
    // latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
     latestVersion: ["nl_organisationPublishURL", "latest", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
     thisVersion: ["nl_organisationPublishURL", "shortName", "/", "korteNaam"],
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
     prevVersion: ["nl_organisationPublishURL", "korteNaam"],
+
     useLogo: true,
     useLabel: true,
 
