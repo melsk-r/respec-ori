@@ -13,7 +13,7 @@ let respecConfig = {
   previousPublishDate: "2022-06-24",
   //previousMaturity: "WV",
   title: "SIM-Open Raads- en StatenInformatie",
-  content: {"Inleiding": "", "Scope": "", "mermaid": ""},
+  content: {"Inleiding": "", "Scope": ""},
 
   // prevVersion: ["nl_organisationPublishURL", "previous", "/", "shortName"],
   
