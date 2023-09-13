@@ -13,17 +13,18 @@ var organisationConfig = {
 
     postProcess: [window.respecMermaid.createFigures],
 
-   // Waarom staan deze variabelen hier. Dat zou nl. betekenen dat er bijv. altijd een previous version link wordt gegenereerd terwijl die er aan het 
-   // begin van de life cycle van een document nog helemaal niet is.
+   // Onderstaande variabelen kunnen door ze nogmaals in de config.js te plaatsen overrules worden. 
+   // Bijv. om een vorige versie niet te tonen, aan begin van de life cycle van een document is deze er nl. nog helemaal niet.
+	
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
-
+   korteNaam: "Respec-ORI",
    // latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
     latestVersion: ["nl_organisationPublishURL", "latest", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-    thisVersion: ["nl_organisationPublishURL", "shortName"],
+    thisVersion: ["nl_organisationPublishURL", "shortName", "/", "korteNaam"],
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
-    prevVersion: ["nl_organisationPublishURL", "shortName"],
+    prevVersion: ["nl_organisationPublishURL", "korteNaam"],
     useLogo: true,
     useLabel: true,
 
