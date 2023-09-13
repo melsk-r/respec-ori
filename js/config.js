@@ -5,14 +5,14 @@ let respecConfig = {
   specStatus: "DEF",
   specType: "HR",
   pubDomain: "dk",
-  shortName: "template",
-  publishDate: "2023-06-21",
-  publishVersion: "0.0.3",
+  shortName: "ORI",
+  publishDate: "2023-07-21",
+  publishVersion: "2.0.0",
   
   previousVersion: "0.0.2",
   previousPublishDate: "2022-06-24",
   previousMaturity: "WV",
-  title: "titleText",
+  title: "SIM-Open Raads- en StatenInformatie",
   content: {"ch01": "informative", "ch02": "", "mermaid": ""},
   editors:
     [
