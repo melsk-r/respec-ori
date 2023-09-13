@@ -15,7 +15,7 @@ let respecConfig = {
   title: "SIM-Open Raads- en StatenInformatie",
   content: {"Inleiding": "", "Scope": ""},
 
-  prevVersion: ["nl_organisationPublishURL", "previous", "/", "shortName"],
+  // prevVersion: ["nl_organisationPublishURL", "previous", "/", "shortName"],
   
   editors:
     [
