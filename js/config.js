@@ -14,6 +14,9 @@ let respecConfig = {
   //previousMaturity: "WV",
   title: "SIM-Open Raads- en StatenInformatie",
   content: {"Inleiding": "", "Scope": ""},
+
+  prevVersion: ["nl_organisationPublishURL", "previous", "/", "shortName"],
+  
   editors:
     [
       {
