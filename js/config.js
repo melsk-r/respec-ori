@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   license: "eupl",
-  specStatus: "TST",
+  specStatus: "WV",
   specType: "IM",
   //pubDomain: "dk",
   shortName: "Respec-ORI",
