@@ -1,3 +1,4 @@
+// Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
   useLogo: true,
   useLabel: true,
@@ -15,6 +16,7 @@ let respecConfig = {
   title: "SIM-Open Raads- en StatenInformatie",
   content: {"Inleiding": "", "Scope": ""},
 
+  // Hier wordt de variabele 'prevVersion' die gedefinieerd is in de 'organisation-config.js' overruled.
   // prevVersion: ["nl_organisationPublishURL", "previous", "/", "shortName"],
   
   editors:
