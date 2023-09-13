@@ -5,7 +5,7 @@ let respecConfig = {
   specStatus: "DEF",
   specType: "HR",
   pubDomain: "dk",
-  shortName: "ORI",
+  shortName: "Respec-ORI",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0",
   
