@@ -9,28 +9,28 @@ let respecConfig = {
   publishDate: "2023-07-21",
   publishVersion: "2.0.0",
   
-  previousVersion: "0.0.2",
+  previousVersion: "1.2.0",
   previousPublishDate: "2022-06-24",
   previousMaturity: "WV",
   title: "SIM-Open Raads- en StatenInformatie",
-  content: {"ch01": "informative", "ch02": "", "mermaid": ""},
+  //content: {"ch01": "informative", "ch02": "", "mermaid": ""},
   editors:
     [
       {
-        name: "Logius Standaarden",
-        company: "Logius",
-        companyURL: "https://github.com/Logius-standaarden",
+        name: "Henri Korver",
+        company: "VNG-Realisatie",
+        companyURL: "https://github.com/melsk-r/Respec-ORI",
       }
     ],
   authors:
     [
       {
-        name: "Logius Standaarden",
-        company: "Logius",
-        companyURL: "https://github.com/Logius-standaarden",
+        name: "Johan Boer",
+        company: "VNG-Realisatie",
+        companyURL: "https://github.com/melsk-r/Respec-ORI",
       }
     ],
-  github: "https://github.com/Logius-standaarden/ReSpec-template",
+  github: "https://github.com/melsk-r/Respec-ORI",
 
 
   // Create PDF and link to file in header (optional):
