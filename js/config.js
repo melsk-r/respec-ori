@@ -5,7 +5,7 @@ let respecConfig = {
   specStatus: "TST",
   specType: "ST",
   //pubDomain: "dk",
-  shortName: "respec-ori",
+  shortName: "Respec-ORI",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0",
   
@@ -19,7 +19,7 @@ let respecConfig = {
       {
         name: "Henri Korver",
         company: "VNG-Realisatie",
-        companyURL: "https://github.com/melsk-r/Respec-ORI",
+        companyURL: "https://www.vng.nl",
       }
     ],
   authors:
@@ -27,7 +27,7 @@ let respecConfig = {
       {
         name: "Johan Boer",
         company: "VNG-Realisatie",
-        companyURL: "https://github.com/melsk-r/Respec-ORI",
+        companyURL: "https://www.vng.nl",
       }
     ],
   github: "https://github.com/melsk-r/Respec-ORI",
