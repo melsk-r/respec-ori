@@ -7,7 +7,7 @@ let respecConfig = {
   //pubDomain: "dk",
   shortName: "Respec-ORI",
   publishDate: "2023-07-21",
-  publishVersion: "2.0.0",
+  publishVersion: "2.0.0α",
   
   previousVersion: "1.2.0",
   previousPublishDate: "2022-06-24",
