@@ -13,7 +13,7 @@ var organisationConfig = {
         url: "https://www.vng.nl",
     }],
 
-   // Geen idee wat dit precies doet.
+   // Mermaid is blijkbaar een eenvoudige notatie-wijze van stroomdiagrammen definiëren. Onderstaande 'postProcess' maakt van die eenvoudige notatie een grafiek.
     postProcess: [window.respecMermaid.createFigures],
 
    // De hier gedefinieerde variabelen kunnen door ze nogmaals in de config.js te plaatsen overruled worden.  
