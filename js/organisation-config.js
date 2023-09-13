@@ -8,7 +8,6 @@ var organisationConfig = {
         alt: "VNG-Realisatie",
         id: "VNG-Realisatie",
         height: 77,
-        width: 44,
         url: "https://www.vng.nl",
     }],
 
