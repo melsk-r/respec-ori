@@ -4,7 +4,7 @@ let respecConfig = {
   license: "eupl",
   specStatus: "DEF",
   specType: "ST",
-  pubDomain: "dk",
+  //pubDomain: "dk",
   shortName: "Respec-ORI",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0",
