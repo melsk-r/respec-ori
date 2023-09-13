@@ -61,6 +61,7 @@ var organisationConfig = {
             al: "Algemeen",
             bd: "Beheerdocumentatie",
             bp: "Best practice",
+            tst: "Test versie",
         },
     },
 
