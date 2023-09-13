@@ -109,7 +109,7 @@ var organisationConfig = {
             name: "EUROPEAN UNION PUBLIC LICENCE v. 1.2",
             short: "EUPL",
             url: "https://eupl.eu/",
-            image: "https://eupl.eu/",
+            image: "https://eupl.eu/eu.png",
         },
     },
 
