@@ -18,7 +18,7 @@ var organisationConfig = {
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
     thisVersion: ["nl_organisationPublishURL", "shortName"],
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
-    prevVersion: ["nl_organisationPublishURL", ""shortName"],
+    prevVersion: ["nl_organisationPublishURL", "shortName"],
     useLogo: true,
     useLabel: true,
 
