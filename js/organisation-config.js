@@ -108,7 +108,7 @@ var organisationConfig = {
             name: "EUROPEAN UNION PUBLIC LICENCE v. 1.2",
             short: "EUPL",
             url: "https://eupl.eu/",
-//            image: "https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by-nd.svg",
+            image: "https://eupl.eu/",
         },
     },
 
