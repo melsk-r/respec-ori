@@ -4,16 +4,16 @@ let respecConfig = {
   license: "eupl",
   specStatus: "DEF",
   specType: "ST",
-  pubDomain: "dk",
+  //pubDomain: "dk",
   shortName: "Respec-ORI",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0",
   
   previousVersion: "1.2.0",
   previousPublishDate: "2022-06-24",
-  previousMaturity: "WV",
+  //previousMaturity: "WV",
   title: "SIM-Open Raads- en StatenInformatie",
-  content: {"SIM-ORI.html": ""},
+  //content: {"SIM-ORI.html": ""},
   editors:
     [
       {
