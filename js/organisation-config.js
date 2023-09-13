@@ -4,12 +4,12 @@ var organisationConfig = {
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
     nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
     logos: [{
-        src: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
-        alt: "Logius",
-        id: "Logius",
+        src: "https://melsk-r.github.io/Respec/logo-VNG-Realisatie.jpg",
+        alt: "VNG-Realisatie",
+        id: "VNG-Realisatie",
         height: 77,
         width: 44,
-        url: "https://www.logius.nl/standaarden",
+        url: "https://www.vng.nl",
     }],
 
     postProcess: [window.respecMermaid.createFigures],
