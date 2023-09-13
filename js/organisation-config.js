@@ -21,7 +21,7 @@ var organisationConfig = {
 	
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
-   korteNaam: "Respec-ORI",
+   korteNaam: "respec-ori",
 
    // Onderzoeken hoe je een oude versie kunt publiceren.
    // ---------------------------------------------------
@@ -31,6 +31,9 @@ var organisationConfig = {
     thisVersion: ["nl_organisationPublishURL", "shortName", "/", "korteNaam"],
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
     prevVersion: ["nl_organisationPublishURL", "korteNaam"],
+
+   // Ook nog onderzoeken waarom, als de repository naam hoofdletters bevat' de url van de 'vorige versie' na renderen alleen lowercase is terijl die 
+   // van de huidige en laatste versie voldoet aan de naam zoals deze is. Dat zorgt er nl. voor dat die url niet werkt.
 
     useLogo: true,
     useLabel: true,
