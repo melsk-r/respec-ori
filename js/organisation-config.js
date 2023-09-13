@@ -1,8 +1,8 @@
 // Plaats dit bestand op een centrale locatie voor hergebruik in meerdere documenten.
 var organisationConfig = {
-    nl_organisationName: "Logius",
+    nl_organisationName: "VNG-Realisatie",
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-    nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
+    nl_organisationPublishURL: "https://melsk-r.github.io/",
     logos: [{
         src: "https://melsk-r.github.io/Respec/logo-VNG-Realisatie.jpg",
         alt: "VNG-Realisatie",
@@ -19,7 +19,7 @@ var organisationConfig = {
     useLogo: true,
     useLabel: true,
 
-    license: "cc0",
+    license: "eupl",
     addSectionLinks: true,
 
     localizationStrings: {
@@ -103,6 +103,12 @@ var organisationConfig = {
             short: "CC-BY-ND",
             url: "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
             image: "https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by-nd.svg",
+        },
+        "eupl": {
+            name: "EUROPEAN UNION PUBLIC LICENCE v. 1.2",
+            short: "EUPL",
+            url: "https://eupl.eu/",
+//            image: "https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by-nd.svg",
         },
     },
 
