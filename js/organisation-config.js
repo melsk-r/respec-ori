@@ -13,6 +13,7 @@ var organisationConfig = {
 
     postProcess: [window.respecMermaid.createFigures],
 
+   this: "this",
    // latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
     latestVersion: ["nl_organisationPublishURL", "latest", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
