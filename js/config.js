@@ -3,6 +3,7 @@ let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
+  nl_organisationName: "VNG",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
   specStatus: "IG",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-types.
