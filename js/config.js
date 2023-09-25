@@ -1,9 +1,11 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  license: "eupl",
-  specStatus: "WV",
-  specType: "IG",
-  //pubDomain: "dk",
+//  useLogo: true,
+//  useLabel: true,
+//  license: "eupl",
+  specStatus: "IG",
+  specType: "ST",
+  pubDomain: "api",
   shortName: "respec-ori",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0α",
