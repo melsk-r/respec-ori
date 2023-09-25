@@ -39,7 +39,7 @@ let respecConfig = {
         companyURL: "https://www.vng.nl",
       }
     ],
-  github: "https://github.com/melsk-r/Respec-ORI",
+  github: "https://github.com/melsk-r/respec-ori",
 
 
   // Create PDF and link to file in header (optional):
