@@ -1,7 +1,5 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  useLogo: true,
-  useLabel: true,
   license: "eupl",
   specStatus: "WV",
   specType: "IG",
