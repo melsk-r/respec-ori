@@ -13,7 +13,7 @@ let respecConfig = {
 //  pubDomain: "api",
 
 latestVersion: "",
-thisVersion: "",
+thisVersion: ["nl_organisationPublishURL", "shortName"],
 prevVersion: "",  
   
   shortName: "respec-ori",
