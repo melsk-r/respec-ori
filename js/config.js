@@ -11,6 +11,11 @@ let respecConfig = {
   specType: "IM",
   // Worden (nog) niet gebruikt bij VNG-R.
 //  pubDomain: "api",
+
+latestVersion: "",
+thisVersion: "",
+prevVersion: "",  
+  
   shortName: "respec-ori",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0α",
