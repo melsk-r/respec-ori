@@ -4,7 +4,7 @@ let respecConfig = {
 //  useLabel: true,
 //  license: "eupl",
   specStatus: "IG",
-  specType: "ST",
+  specType: "IM",
   pubDomain: "api",
   shortName: "respec-ori",
   publishDate: "2023-07-21",
