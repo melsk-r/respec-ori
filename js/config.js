@@ -4,7 +4,7 @@ let respecConfig = {
 //  useLabel: true,
 //  license: "eupl",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
-  specStatus: "WV",
+  specStatus: "IG",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-types.
   specType: "IM",
   // Worden (nog) niet gebruikt bij VNG-R.
