@@ -3,7 +3,7 @@ let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
-  specStatus: "IG",
+  specStatus: "IO",
   specType: "IM",
   pubDomain: "api",
   shortName: "respec-ori",
