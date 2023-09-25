@@ -3,9 +3,12 @@ let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
+  // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
   specStatus: "WV",
+  // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-types.
   specType: "IM",
-  pubDomain: "api",
+  // Worden (nog) niet gebruikt bij VNG-R.
+//  pubDomain: "api",
   shortName: "respec-ori",
   publishDate: "2023-07-21",
   publishVersion: "2.0.0α",
