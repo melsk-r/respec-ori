@@ -17,7 +17,7 @@
 <body>
   <section id="abstract" data-include-format="markdown" data-include="abstract.md"></section>
   <section id="sotd"></section><!-- Wordt automatisch gevuld -->
-  <!--script>
+  <script>
     let content = "";
 
     const getClass = function(key) {
@@ -29,50 +29,8 @@
     }
 
     document.getElementById("tof").insertAdjacentHTML('afterend', content);
-  </script-->
-  <script>
-    let content = "";
-
-    const getClass = function(key) {
-      if (respecConfig.content[key]!==""){return ` class="${respecConfig.content[key]}"`}
-    }
-
-    for (let contentKey in respecConfig.content) {
-      content += `<section data-include-format="html" data-include="${contentKey}.html" ${getClass(contentKey)||""}></section>`
-    }
-
-    document.getElementById("sotd").insertAdjacentHTML('afterend', content);
-</script>
-  <!--script>
-    let content = "";
-    const getClass = function(key) {
-      if (respecConfig.content[key]!==""){return ` class="${respecConfig.content[key]}"`}
-    }
-    for (let contentKey in respecConfig.content) {
-      let result = contentKey.includes(".html");
-      if (result is true) {
-        content += `<section data-include-format="html" data-include="${contentKey}" ${getClass(contentKey)||""}></section>`
-      } else {
-        content += `<section data-include-format="markdown" data-include="${contentKey}.md" ${getClass(contentKey)||""}></section>`
-      }
-    }
-    document.getElementById("sotd").insertAdjacentHTML('afterend', content);
-</script-->
-  <!--div data-include='SIM-ORI.html' data-include-replace="true"> </div-->
-  <!--script>
-    let content2 = "";
-
-    const getClass = function(key) {
-      if (respecConfig.content2[key]!==""){return ` class="${respecConfig.content2[key]}"`}
-    }
-
-    for (let contentKey2 in respecConfig.content2) {
-      content += `<section data-include-format="markdown" data-include="${contentKey2}.md" ${getClass(contentKey2)||""}></section>`
-    }
-
-    document.getElementById("sotd").insertAdjacentHTML('afterend', content2);
-</script-->
-  <!--div data-include='mermaid1.md' data-include-replace="true"> </div-->
+  </script>
+  <div data-include='SIM-ORI.html' data-include-replace="true"> </div>
   <section id='conformance'></section>
   <section id='tof'></section>
   <section id="index"></section>
