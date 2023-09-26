@@ -17,7 +17,7 @@
 <body>
   <section id="abstract" data-include-format="markdown" data-include="abstract.md"></section>
   <section id="sotd"></section><!-- Wordt automatisch gevuld -->
-  <!--script>
+  <script>
     let content = "";
 
     const getClass = function(key) {
@@ -29,8 +29,8 @@
     }
 
     document.getElementById("sotd").insertAdjacentHTML('afterend', content);
-  </script-->
-  <script>
+  </script>
+  <!--script>
     let content = "";
 
     const getClass = function(key) {
@@ -48,7 +48,7 @@
     }
 
     document.getElementById("sotd").insertAdjacentHTML('afterend', content);
-  </script>
+  </script-->
   <!--div data-include='SIM-ORI.html' data-include-replace="true"> </div-->
   <section id='conformance'></section>
   <section id='tof'></section>
