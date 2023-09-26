@@ -38,7 +38,7 @@
     }
 
     for (let contentKey in respecConfig.content) {
-      content += `<section data-include-format="html" data-include="${contentKey}" ${getClass(contentKey)||""}></section>`
+      content += `<section data-include-format="html" data-include="${contentKey}.html" ${getClass(contentKey)||""}></section>`
     }
 
     document.getElementById("sotd").insertAdjacentHTML('afterend', content);
