@@ -53,11 +53,15 @@
   <script>
     let content2 = "";
 
+    const getClass = function(key) {
+      if (respecConfig.content2[key]!==""){return ` class="${respecConfig.content2[key]}"`}
+    }
+
     for (let contentKey2 in respecConfig.content2) {
       content += `<section data-include-format="markdown" data-include="${contentKey2}.md" ${getClass(contentKey2)||""}></section>`
     }
 
-    document.getElementById("sotd").insertAdjacentHTML('afterend', content);
+    document.getElementById("tof").insertAdjacentHTML('afterend', content2);
   </script>
   <div data-include='mermaid1.md' data-include-replace="true"> </div>
   <section id='conformance'></section>
