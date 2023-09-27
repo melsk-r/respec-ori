@@ -6,7 +6,7 @@ let respecConfig = {
 //  nl_organisationName: "VNG",
   nl_organisationPublishURL: "https://gitdocumentatie.vng.nl/publicatie/",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
-  specStatus: "BASIS",
+  specStatus: "IO",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-types.
   specType: "IM",
   // Worden (nog) niet gebruikt bij VNG-R.
