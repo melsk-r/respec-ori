@@ -21,7 +21,7 @@ let respecConfig = {
   //previousMaturity: "WV",
   title: "SIM-Open Raads- en StatenInformatie",
   content: {"SIM-ORI": ""},
-  content2: {"Inleiding": "", "Scope": "", "SIM-ORI": ""},
+  content2: {"Inleiding": "pietje", "Scope": "puk", "SIM-ORI": ""},
   // Hier wordt de variabele 'prevVersion' die gedefinieerd is in de 'organisation-config.js' overruled.
   // prevVersion: ["nl_organisationPublishURL", "previous", "/", "shortName"],
   
