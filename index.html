@@ -17,6 +17,11 @@
 <body>
   <section id="abstract" data-include-format="markdown" data-include="abstract.md"></section>
   <section id="sotd"></section><!-- Wordt automatisch ingevuld met een standaard tekst als de property 'specStatus' de waarde 'WV' heeft. -->
+  <div data-include='SIM-ORI.html' data-include-replace="true"> </div>
+  <div data-include='mermaid.md' data-include-replace="true" data-include-format="markdown"> </div>
+  <section id='conformance'></section>
+  <section id="mermaid" data-include-format="markdown" data-include="mermaid.md"></section>
+  <section id='tof'></section>
   <script>
     let content = "";
 
@@ -30,11 +35,6 @@
 
     document.getElementById("sotd").insertAdjacentHTML('afterend', content);
   </script>
-  <div data-include='SIM-ORI.html' data-include-replace="true"> </div>
-  <div data-include='mermaid.md' data-include-replace="true" data-include-format="markdown"> </div>
-  <section id='conformance'></section>
-  <section id="mermaid" data-include-format="markdown" data-include="mermaid.md"></section>
-  <section id='tof'></section>
   <section id="SIM-ORI2" data-include-format="html" data-include="SIM-ORI.html"></section>
  <section id="index"></section>
 </body>
