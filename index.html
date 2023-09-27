@@ -37,6 +37,19 @@
   </script>
   <section id="SIM-ORI2" data-include-format="html" data-include="SIM-ORI.html"></section>
  <section id="index"></section>
+  <script>
+    let content2 = "";
+
+    const getClass2 = function(key) {
+      if (respecConfig.content2[key]!==""){return ` class="${respecConfig.content2[key]}"`}
+    }
+
+    for (let contentKey in respecConfig.content2) {
+      content2 += `<section data-include-format="markdown" data-include="${contentKey}.md" ${getClass2(contentKey)||""}></section>`
+    }
+
+    document.getElementById("index").insertAdjacentHTML('afterend', content2);
+  </script>
 </body>
 
 </html>
