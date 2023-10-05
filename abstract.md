@@ -1,1 +1,1 @@
-Tekst [[CWG1001]] 
+Tekst [[CWG1001]] en [[UNICODE]].
