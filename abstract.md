@@ -1,3 +1,3 @@
-Tekst [[CWG1001]], [[UNICODE]] en [[[SemVer]].
+Tekst [[CWG1001]], [[ORICODE]] en [[[SemVer]].
 
 Test
