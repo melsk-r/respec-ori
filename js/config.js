@@ -1,6 +1,5 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  favicon: "🐙",
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
