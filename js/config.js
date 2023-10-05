@@ -48,7 +48,11 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "template.pdf",
+          uri: "ORI.pdf",
+      },
+      {
+          label: "xdoc",
+          uri: "ORI.xdoc",
       },
   ],
 };
