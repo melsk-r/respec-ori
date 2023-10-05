@@ -1,5 +1,6 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
+  isPreview: true,
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
@@ -41,13 +42,7 @@ let respecConfig = {
         companyURL: "https://www.vng.nl",
       }
     ],
-  github: "https://github.com/melsk-r/respec-ori-3",
-//  github: "melsk-r/respec-ori",
-//  github: {
-//    repoURL: "https://github.com/melsk-r/respec-ori-2",
-//    branch: "public-docs", // alternative branch
-//  },
-
+  github: "https://github.com/melsk-r/respec-ori",
 
   // Create PDF and link to file in header (optional):
 //  alternateFormats: [
