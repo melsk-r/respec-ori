@@ -2,6 +2,7 @@
 let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
+  caniuse: "payment-request",
   license: "cc0",
 //  nl_organisationName: "VNG",
   nl_organisationPublishURL: "https://gitdocumentatie.vng.nl/publicatie/",
