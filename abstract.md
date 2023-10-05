@@ -1,1 +1,1 @@
-Tekst
+Tekst [[CWG1001]] 
