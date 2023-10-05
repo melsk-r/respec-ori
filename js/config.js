@@ -2,7 +2,7 @@
 let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
-//  license: "eupl",
+  license: "cc0",
 //  nl_organisationName: "VNG",
   nl_organisationPublishURL: "https://gitdocumentatie.vng.nl/publicatie/",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
@@ -45,14 +45,14 @@ let respecConfig = {
 
 
   // Create PDF and link to file in header (optional):
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "ORI.pdf",
-      },
-      {
-          label: "xdoc",
-          uri: "ORI.xdoc",
-      },
-  ],
+//  alternateFormats: [
+//      {
+//          label: "pdf",
+//          uri: "ORI.pdf",
+//      },
+//      {
+//          label: "xdoc",
+//          uri: "ORI.xdoc",
+//      },
+//  ],
 };
