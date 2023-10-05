@@ -41,12 +41,12 @@ let respecConfig = {
         companyURL: "https://www.vng.nl",
       }
     ],
-//  github: "https://github.com/melsk-r/respec-ori",
+  github: "https://github.com/melsk-r/respec-ori-3",
 //  github: "melsk-r/respec-ori",
-  github: {
-    repoURL: "https://github.com/melsk-r/respec-ori-2",
-    branch: "public-docs", // alternative branch
-  },
+//  github: {
+//    repoURL: "https://github.com/melsk-r/respec-ori-2",
+//    branch: "public-docs", // alternative branch
+//  },
 
 
   // Create PDF and link to file in header (optional):
