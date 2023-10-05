@@ -1,5 +1,6 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
+  format: "markdown",
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
