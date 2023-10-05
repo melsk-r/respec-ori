@@ -44,7 +44,7 @@ let respecConfig = {
 //  github: "https://github.com/melsk-r/respec-ori",
 //  github: "melsk-r/respec-ori",
   github: {
-    repoURL: "https://github.com/melsk-r/respec-ori",
+    repoURL: "melsk-r/respec-ori",
     branch: "public-docs", // alternative branch
   },
 
