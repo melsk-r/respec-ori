@@ -1,6 +1,19 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  format: "markdown",
+  formerEditors: [
+    {
+      name: "Marcos Caceres",
+      company: "Mozilla Corporation",
+      companyURL: "https://mozilla.org/",
+      w3cid: 39125,
+    },
+    {
+      name: "Kenneth Rohde Christiansen",
+      company: "Intel Corporation",
+      companyURL: "https://intel.com",
+      w3cid: 57705,
+    },
+  ],
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
