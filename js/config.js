@@ -2,8 +2,7 @@
 let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
-  caniuse: "payment-request",
-  license: "cc0",
+//  license: "eupl",
 //  nl_organisationName: "VNG",
   nl_organisationPublishURL: "https://gitdocumentatie.vng.nl/publicatie/",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
