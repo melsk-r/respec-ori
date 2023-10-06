@@ -1,5 +1,6 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
+  noTOC: true,
   maxTocLevel: 3,
 //  useLogo: true,
 //  useLabel: true,
