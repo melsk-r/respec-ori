@@ -1,7 +1,22 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  noTOC: true,
-  maxTocLevel: 3,
+  otherLinks: [
+    {
+      key: "Implementation examples",
+      data: [
+        {
+          value: "Gecko",
+          href: "https://bugzilla.mozilla.org/show_bug.cgi?id=xxxx",
+        },
+        {
+          value: "Blink",
+          href: "https://code.google.com/p/chromium/issues/detail?id=xxx",
+        },
+      ],
+    },
+  ],
+//  noTOC: true,
+//  maxTocLevel: 3,
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
