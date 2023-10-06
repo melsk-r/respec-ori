@@ -1,17 +1,18 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  otherLinks: [
-    {
-      key: "Referentie Implementaties",
-      data: [
-        {
-          value: "Open ORI",
-          href: "https://www.open-ORI.com",
-        },
-      ],
-    },
-  ],
-  subtitle: "The spec to end all specs.",
+//  otherLinks: [
+//    {
+//      key: "Referentie Implementaties",
+//      data: [
+//        {
+//          value: "Open ORI",
+//          href: "https://www.open-ORI.com",
+//        },
+//      ],
+//    },
+//  ],
+//  subtitle: "The spec to end all specs.",
+  testSuiteURI: "https://example.com/test/suite/",
 //  noTOC: true,
 //  maxTocLevel: 3,
 //  useLogo: true,
