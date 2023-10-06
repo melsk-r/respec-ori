@@ -1,13 +1,13 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  maxTocLevel: 3,
+//  maxTocLevel: 3,
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
 //  nl_organisationName: "VNG",
   nl_organisationPublishURL: "https://gitdocumentatie.vng.nl/publicatie/",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-statussen.
-  specStatus: "WD",
+  specStatus: "IO",
   // Zie 'localizationStrings/nl' in 'organisation-config.js' voor de lijst met toegestane specificatie-types.
   specType: "IM",
   // Worden (nog) niet gebruikt bij VNG-R.
@@ -15,7 +15,7 @@ let respecConfig = {
 
   shortName: "respec-ori",
   publishDate: "2023-07-21",
-  modificationDate: "2020-04-23",
+//  modificationDate: "2020-04-23",
   publishVersion: "2.0.0α",
   
   previousVersion: "1.2.0",
