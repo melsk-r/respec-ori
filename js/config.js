@@ -15,6 +15,7 @@ let respecConfig = {
       ],
     },
   ],
+  wgPublicList: "ORI-apis",
   subjectPrefix: "[SIM-ORI v.2.0.0]",
 //  noTOC: true,
 //  maxTocLevel: 3,
