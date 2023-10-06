@@ -1,3 +1,3 @@
-Tekst [[CWG1001]], [[ANCHORS]], [[CLOSE-WATCHER]], [[ORICODE2]], [[ORICODE]] en [[[SemVer]].
+Tekst [[CWG1001]], [[ANCHORS]], [[CLOSE-WATCHER]], [[ORICODE]] en [[[SemVer]].
 
 Test
