@@ -2,21 +2,16 @@
 let respecConfig = {
   otherLinks: [
     {
-      key: "Implementatie voorbeelden",
+      key: "Referentie Implementaties",
       data: [
         {
-          value: "Gecko",
-          href: "https://bugzilla.mozilla.org/show_bug.cgi?id=xxxx",
-        },
-        {
-          value: "Blink",
-          href: "https://code.google.com/p/chromium/issues/detail?id=xxx",
+          value: "Open ORI",
+          href: "https://www.open-ORI.com",
         },
       ],
     },
   ],
-  wgPublicList: "ORI-apis",
-  subjectPrefix: "[SIM-ORI v.2.0.0]",
+  subtitle: "The spec to end all specs.",
 //  noTOC: true,
 //  maxTocLevel: 3,
 //  useLogo: true,
