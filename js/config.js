@@ -2,7 +2,7 @@
 let respecConfig = {
   otherLinks: [
     {
-      key: "Implementation examples",
+      key: "Implementatie voorbeelden",
       data: [
         {
           value: "Gecko",
@@ -15,6 +15,7 @@ let respecConfig = {
       ],
     },
   ],
+  subjectPrefix: "[SIM-ORI v.2.0.0]",
 //  noTOC: true,
 //  maxTocLevel: 3,
 //  useLogo: true,
