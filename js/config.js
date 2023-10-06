@@ -1,6 +1,6 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-  isPreview: true,
+  maxTocLevel: 2,
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
