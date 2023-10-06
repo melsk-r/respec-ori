@@ -1,3 +1,3 @@
-Tekst [[CWG1001]] en [[[SemVer]].
+Tekst [[CWG1001]], [[ANCHORS]], [[CLOSE-WATCHER]] en [[[SemVer]].
 
 Test
