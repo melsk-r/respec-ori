@@ -56,12 +56,12 @@ let respecConfig = {
 //          uri: "ORI.xdoc",
 //      },
 //  ],
-    localBiblio: {
-      "ORICODE2": {
-        "href": "https://www.unicode.org/versions/latest/",
-        "publisher": "Unicode Consortium",
-        "title": "The Unicode Standard",
-        "etAl": true
-      },
-    },
+//    localBiblio: {
+//      "ORICODE2": {
+//        "href": "https://www.unicode.org/versions/latest/",
+//        "publisher": "Unicode Consortium",
+//        "title": "The Unicode Standard",
+//        "etAl": true
+//      },
+//    },
 };
