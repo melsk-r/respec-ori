@@ -15,7 +15,7 @@ let respecConfig = {
 
   shortName: "respec-ori",
   publishDate: "2023-07-21",
-//  modificationDate: "2020-04-23",
+  modificationDate: "2023-08-23",
   publishVersion: "2.0.0α",
   
   previousVersion: "1.2.0",
