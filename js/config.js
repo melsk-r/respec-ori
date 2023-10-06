@@ -1,6 +1,6 @@
 // Dit bestand wordt per standaard/document opnieuw van de juiste waarden voorzien.
 let respecConfig = {
-//  maxTocLevel: 3,
+  maxTocLevel: 3,
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
